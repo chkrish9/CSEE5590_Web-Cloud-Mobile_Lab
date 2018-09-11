@@ -1,0 +1,47 @@
+.navbar-color{
+    background-color: #0095ff;
+}
+.navbar-color .navbar-brand{
+    color: #fff;
+}
+.navbar-color li > a{
+    color: #fff;
+}
+
+.navbar-color .navbar-nav > li > a:hover, .navbar-color .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #FFF;
+}
+.navbar-color .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+.navbar-color .dropdown-menu>li>a{
+    color: #FFF;
+}
+.navbar-color .sr-only{
+    background-color: #0095ff;
+}
+.footer-style{
+    background-color: #dddddd;
+    padding: 20px;
+}
+.search-bar{
+    width: 50%!important;
+    float: left;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0!important;
+}
+.padding-0{
+    padding: 0!important;
+}
+.margin-top-10px{
+    margin-top: 10px;
+}
+.text-ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
