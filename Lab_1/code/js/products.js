@@ -66,7 +66,7 @@ function loadProducts(products) {
             +'<img src="'+ products.items[i].itemImg+'">'
             +'<div class="caption text-center">'
             +'<p class="text-ellipsis"><strong>'+products.items[i].itemName+'</strong></p>'
-            +'<p>'+products.items[i].itemPrice+'</p>'
+            +'<p>$ '+products.items[i].itemPrice+'</p>'
             +'</div>'
             +'</div>'
             +'</div>';
