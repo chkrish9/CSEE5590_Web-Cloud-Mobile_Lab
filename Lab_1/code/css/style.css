@@ -15,7 +15,9 @@
 .navbar-color .navbar-toggle .icon-bar{
     background-color: #fff;
 }
-
+.myaccount .dropdown-menu{
+    background-color:#0095ff ;
+}
 .navbar-color .dropdown-menu>li>a{
     color: #FFF;
 }
@@ -37,6 +39,9 @@
 .padding-0{
     padding: 0!important;
 }
+.margin-10px{
+    margin: 10px;
+}
 .margin-top-10px{
     margin-top: 10px;
 }
@@ -44,4 +49,13 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.item-img{
+    height: 100%!important;
+}
+.display-profile{
+    margin-bottom: 10em;
+}
+.min-height{
+    height: 60vh;
 }
