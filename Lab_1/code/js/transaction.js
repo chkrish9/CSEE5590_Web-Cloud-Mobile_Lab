@@ -1,5 +1,6 @@
 $(document).ready(function () {
     var selectedItem = JSON.parse(localStorage.getItem("selectedItem"));
+
     $(".btn-pay").click(function () {
         var user = JSON.parse(localStorage.getItem("loggedInUser"));
 
@@ -19,6 +20,7 @@ $(document).ready(function () {
 
         location.href = "order.html";
     });
+
     FillOrderDetails(selectedItem);
 });
 

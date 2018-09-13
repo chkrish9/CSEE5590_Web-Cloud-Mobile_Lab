@@ -1,5 +1,6 @@
 $(document).ready(function () {
     var user = JSON.parse(localStorage.getItem("loggedInUser"));
+
     loadOrders(user);
 });
 

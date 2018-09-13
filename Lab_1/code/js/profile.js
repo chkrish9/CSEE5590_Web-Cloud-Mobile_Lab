@@ -1,9 +1,11 @@
 $(document).ready(function () {
     var loggedUser = JSON.parse(localStorage.getItem("loggedInUser"));
     var users = JSON.parse(localStorage.getItem("users"));
+
     var user = users.filter(function (el) {
         return (el.name === loggedUser.name && el.password === loggedUser.password)
     });
+
     loadUser(user[0]);
 });
 

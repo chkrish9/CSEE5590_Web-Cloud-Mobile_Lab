@@ -1,13 +1,22 @@
 $(document).ready(function () {
+    /*
+    * when login button is clicked in the Login & Sign up pop up, it will hide register page and show login page.
+    */
     $("#btnLogin").click(function () {
         $("#loginForm").removeClass("hidden");
         $("#registerForm").addClass("hidden");
     });
+    /*
+    * when register button is clicked in the Login & Sign up pop up, it will hide login page and show register page.
+    */
     $("#btnRegister").click(function () {
         $("#loginForm").addClass("hidden");
         $("#registerForm").removeClass("hidden");
     });
-
+    /*
+    * when user click on categories like phones, laptops etc., it will set the selected category in local storage
+    * and redirect to products.html page.
+    */
     $("[data-cat]").click(function () {
         localStorage.setItem("selectedCatName", $(this).data("cat"));
         if (location.href.indexOf("index.html") > 0)
@@ -15,7 +24,10 @@ $(document).ready(function () {
         else
             location.href = "products.html";
     });
-
+    /*
+    * when user click on login button, first we will get the existing users from local storage and if user exist then we will store thr logged in user
+    * else it will throw error.
+    */
     $("#btnLoginForm").click(function () {
         var users = JSON.parse(localStorage.getItem("users"));
         var username = $($(".username")[0]).val();
@@ -38,7 +50,10 @@ $(document).ready(function () {
             $(".myaccount").addClass("hidden");
         }
     });
-
+    /*
+    * when user click on register button , it will check the validation and then get existing users from local storage,
+    * then add the new user and set to local storage.
+    */
     $("#btnRegisterForm").click(function () {
         var user = {};
         user["name"] = $($(".rusername")[0]).val();
@@ -63,7 +78,10 @@ $(document).ready(function () {
             $("#registerForm").addClass("hidden");
         }
     });
-    
+
+    /*
+    * when user click on logout button it will remove the loggedInUser from local storage.
+    */
     $(".logout").click(function () {
         localStorage.removeItem("loggedInUser");
         if (location.href.indexOf("index.html") > 0)
@@ -71,16 +89,30 @@ $(document).ready(function () {
         else
             location.href = "../index.html";
     });
+
+    /*
+    * Loading the Initial data. If condition is for execute this method only once.
+    */
     if (localStorage.getItem("users") === null)
         loadInitialData();
+    /*
+    * Checking the user already logged in or not
+    */
     if(localStorage.getItem("loggedInUser") !== null)
         loadloggedInUser();
 });
 
+/*
+* If user already logged in this will show my account links
+*/
 function loadloggedInUser () {
     $(".lg-signup").addClass("hidden")
     $(".myaccount").removeClass("hidden");
 }
+
+/*
+* Loading initial data
+*/
 function loadInitialData() {
     var products = [
         {

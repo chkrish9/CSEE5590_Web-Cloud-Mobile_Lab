@@ -53,6 +53,7 @@ $(document).ready(function () {
             break;
 
     }
+
     loadProducts(products);
 });
 
@@ -74,6 +75,7 @@ function loadProducts(products) {
     }
     $(".product-list").append('<div class="col-sm-12 text-center margin-10px"><label>No More Products</label></div>');
 }
+
 function getProductsByCatName(itemCat) {
     var products = JSON.parse(localStorage.getItem("products"));
     return products.filter(function (el) {

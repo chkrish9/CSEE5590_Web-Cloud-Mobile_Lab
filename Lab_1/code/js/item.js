@@ -1,9 +1,11 @@
 $(document).ready(function () {
     var selectedProduct = localStorage.getItem("selectedProduct");
     var item = getItemDetails(selectedProduct);
+
     $(".btn-buy").click(function () {
         location.href = "transaction.html";
     });
+
     loadItem(item[0]);
 });
 
