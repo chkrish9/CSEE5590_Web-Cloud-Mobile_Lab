@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     /*
     * when login button is clicked in the Login & Sign up pop up, it will hide register page and show login page.
     */
@@ -6,6 +7,7 @@ $(document).ready(function () {
         $("#loginForm").removeClass("hidden");
         $("#registerForm").addClass("hidden");
     });
+
     /*
     * when register button is clicked in the Login & Sign up pop up, it will hide login page and show register page.
     */
@@ -13,6 +15,7 @@ $(document).ready(function () {
         $("#loginForm").addClass("hidden");
         $("#registerForm").removeClass("hidden");
     });
+
     /*
     * when user click on categories like phones, laptops etc., it will set the selected category in local storage
     * and redirect to products.html page.
@@ -24,6 +27,7 @@ $(document).ready(function () {
         else
             location.href = "products.html";
     });
+
     /*
     * when user click on login button, first we will get the existing users from local storage and if user exist then we will store thr logged in user
     * else it will throw error.
@@ -50,6 +54,7 @@ $(document).ready(function () {
             $(".myaccount").addClass("hidden");
         }
     });
+
     /*
     * when user click on register button , it will check the validation and then get existing users from local storage,
     * then add the new user and set to local storage.

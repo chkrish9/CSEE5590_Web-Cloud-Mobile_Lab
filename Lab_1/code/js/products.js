@@ -18,6 +18,7 @@ $(document).ready(function () {
 
     var selectedCatName = localStorage.getItem("selectedCatName");
     var products = {};
+
     products["items"] = getProductsByCatName(selectedCatName);
 
     switch (selectedCatName) {
