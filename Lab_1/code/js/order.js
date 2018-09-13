@@ -1,9 +1,18 @@
 $(document).ready(function () {
+    /*
+    * Getting the loggedInUser from local storage.
+    */
     var user = JSON.parse(localStorage.getItem("loggedInUser"));
 
+    /*
+    * Loading the orders.
+    */
     loadOrders(user);
 });
 
+/*
+* Building the orders.
+*/
 function loadOrders(user) {
     if(user.orders.length > 0) {
         $(".order-list").html("");

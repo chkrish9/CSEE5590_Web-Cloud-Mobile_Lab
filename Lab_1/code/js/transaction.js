@@ -1,6 +1,12 @@
 $(document).ready(function () {
+    /*
+    * Getting selected item from local storage.
+    */
     var selectedItem = JSON.parse(localStorage.getItem("selectedItem"));
 
+    /*
+    * On click on Pay button we are navigating the user to orders page.
+    */
     $(".btn-pay").click(function () {
         var user = JSON.parse(localStorage.getItem("loggedInUser"));
 
@@ -21,9 +27,15 @@ $(document).ready(function () {
         location.href = "order.html";
     });
 
+    /*
+    * Filling the user.
+    */
     FillOrderDetails(selectedItem);
 });
 
+/*
+* Building the order details.
+*/
 function FillOrderDetails(item) {
     $($(".item-name")[0]).text(item.itemName);
     $($(".item-price")[0]).text("$"+item.itemPrice);

@@ -2,11 +2,16 @@ $(document).ready(function () {
     var slider = $(".price-slider");
     var output = $(".slider-value");
     output.html(slider.val());
-
+    /*
+    * On slider move we are updating the value.
+    */
     slider.on("input", function () {
         output.html(this.value);
     });
 
+    /*
+    * on selecting the product we are storing in local storage and navigating to item.html page.
+    */
     $(document).on('click', '[data-product]', function() {
         localStorage.setItem("selectedProduct", $(this).data("product"));
         if (location.href.indexOf("index.html") > 0)
@@ -15,12 +20,20 @@ $(document).ready(function () {
             location.href = "item.html";
     });
 
-
+    /*
+    * Getting selected category from local storage.
+    */
     var selectedCatName = localStorage.getItem("selectedCatName");
     var products = {};
 
+    /*
+    * Getting product details by calling getProductsByCatName method.
+    */
     products["items"] = getProductsByCatName(selectedCatName);
 
+    /*
+    * Based on the selected category name we filling some additional details to the products details.
+    */
     switch (selectedCatName) {
         case "phones":
             products["catName"] = "Phones";
@@ -55,9 +68,15 @@ $(document).ready(function () {
 
     }
 
+    /*
+    * loading the products based on selected category.
+    */
     loadProducts(products);
 });
 
+/*
+* Building the products.
+*/
 function loadProducts(products) {
     $(".product-cat").html(products.catName);
     $(".price-slider").attr("min", products.minPrice);
@@ -77,6 +96,9 @@ function loadProducts(products) {
     $(".product-list").append('<div class="col-sm-12 text-center margin-10px"><label>No More Products</label></div>');
 }
 
+/*
+* Getting the products based on product category name.
+*/
 function getProductsByCatName(itemCat) {
     var products = JSON.parse(localStorage.getItem("products"));
     return products.filter(function (el) {
