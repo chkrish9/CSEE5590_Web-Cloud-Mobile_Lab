@@ -1,0 +1,30 @@
+.border-br{
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+}
+.padding-0{
+    padding:0;
+}
+.border-r{
+    border-right: 1px solid #d3d3d3;
+}
+
+.border-b{
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.box-height{
+    height: 100px;
+    padding: 25px;
+    font-size: 50px;
+    text-align: center;
+}
+.margin-top-5em{
+    margin-top: 5em;
+}
+body{
+    background-color:#000;
+}
+.white-color{
+    color:#fff;
+}
