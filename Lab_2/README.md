@@ -24,18 +24,18 @@ https://github.com/chkrish9/CSEE5590_Web-Cloud-Mobile_Lab/tree/master/Lab_2
 
 ### Task 1 : 
 
-![alt text](https://github.com/chkrish9/CSEE5590_Web-Cloud-Mobile_Lab/blob/master/Lab_2/documentation/tic-1.PNG "")
+![alt text](https://github.com/chkrish9/CSEE5590_Web-Cloud-Mobile_Lab/blob/master/Lab_2/documentation/tic-3.PNG "")
 
 ### Task 2 : 
 
-![alt text](https://github.com/chkrish9/CSEE5590_Web-Cloud-Mobile_Lab/blob/master/Lab_2/documentation/y-1.PNG "")
+![alt text](https://github.com/chkrish9/CSEE5590_Web-Cloud-Mobile_Lab/blob/master/Lab_2/documentation/y-2.PNG "")
 
 ### Mobile page : 
 
 ### Task 1 : 
 
-![alt text](https://github.com/chkrish9/CSEE5590_Web-Cloud-Mobile_Lab/blob/master/Lab_2/documentation/tic-m-1.PNG "")
+![alt text](https://github.com/chkrish9/CSEE5590_Web-Cloud-Mobile_Lab/blob/master/Lab_2/documentation/tic-m-2.PNG "")
 
 ### Task 2 :
 
-![alt text](https://github.com/chkrish9/CSEE5590_Web-Cloud-Mobile_Lab/blob/master/Lab_2/documentation/y-m-1.PNG "") 
+![alt text](https://github.com/chkrish9/CSEE5590_Web-Cloud-Mobile_Lab/blob/master/Lab_2/documentation/y-m-2.PNG "") 
