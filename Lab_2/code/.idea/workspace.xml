@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0554ea1-c603-41f8-815c-e4b16bede78e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Youtube/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Youtube/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/js/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="e0554ea1-c603-41f8-815c-e4b16bede78e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -55,7 +51,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Youtube/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -73,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -173,12 +169,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538616568787</updated>
-      <workItem from="1538616571851" duration="338000" />
+      <workItem from="1538616571851" duration="740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338000" />
+    <option name="totallyTimeSpent" value="740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -210,13 +206,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Youtube/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -228,6 +217,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
     </entry>
