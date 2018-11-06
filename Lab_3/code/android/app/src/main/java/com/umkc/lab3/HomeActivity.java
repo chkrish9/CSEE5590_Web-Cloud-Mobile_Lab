@@ -9,8 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.facebook.login.LoginManager;
-import com.facebook.login.widget.ProfilePictureView;
+
 
 import org.w3c.dom.Text;
 
