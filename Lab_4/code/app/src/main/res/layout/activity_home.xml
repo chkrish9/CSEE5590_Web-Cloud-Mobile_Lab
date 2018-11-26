@@ -18,16 +18,19 @@
         <Button
             android:id="@+id/btnCamera"
             android:onClick="camera"
+            android:background="@color/colorAccent"
             android:text="Camera" />
 
         <Button
             android:id="@+id/btnMaps"
             android:onClick="maps"
+            android:background="@color/colorPrimary"
             android:text="Maps" />
 
         <Button
             android:id="@+id/btnLogout"
             android:onClick="logout"
+            android:background="@color/colorRed"
             android:text="Logout" />
     </GridLayout>
 
